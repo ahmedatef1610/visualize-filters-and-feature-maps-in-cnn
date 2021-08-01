@@ -8,7 +8,7 @@ we want to visualize filter (Feature detector) which use in convolutional layer 
 
 ---
 
-We need a model to visualize.
+### We need a model to visualize.
 
 Instead of fitting a model from scratch, we can use a pre-fit prior state-of-the-art image classification model.
 
@@ -18,7 +18,7 @@ This is a good model to use for visualization because it has a simple uniform st
 
 ---
 
-Visualize Filters
+### Visualize Filters
 
 Perhaps the simplest visualization to perform is to plot the learned filters directly.
 
@@ -32,7 +32,7 @@ The model summary printed in the previous section summarizes the output shape of
 
 ---
 
-Visualize Feature Maps
+### Visualize Feature Maps
 
 The activation maps, called feature maps, capture the result of applying the filters to input, such as the input image or another feature map.
 
@@ -48,7 +48,6 @@ Next, we need a clearer idea of the shape of the feature maps output by each of 
 ![image](https://user-images.githubusercontent.com/39852784/127786871-3d9f299c-33e1-477c-ab45-6a3b6d5ff7ce.png)
 
 
-
-
+---
 
 
